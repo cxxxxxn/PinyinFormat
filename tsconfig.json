@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "pretty": true,
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+  },
+  "include": ["src/**/*", "__tests__/*.ts"],
+  "exclude": ["node_modules"]
+}
